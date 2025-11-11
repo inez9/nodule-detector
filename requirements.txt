@@ -1,0 +1,22 @@
+# --- Core web app ---
+streamlit==1.39.0
+
+# --- Core CV + ML stack ---
+opencv-python-headless==4.10.0.84
+torch==2.4.0
+torchvision==0.19.0
+numpy==1.26.4
+pillow==10.4.0
+matplotlib==3.9.2
+scikit-learn==1.5.2
+
+# --- File and image utilities ---
+tifffile==2024.8.30
+pandas==2.2.2
+
+# --- Optional visualization / debugging tools ---
+seaborn==0.13.2
+
+# --- Streamlit cloud stability (prevents SSL/cert errors) ---
+certifi
+
